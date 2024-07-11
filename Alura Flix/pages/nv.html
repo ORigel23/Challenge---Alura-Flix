@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./nv.css">
+    <title>Nuevo Video - Alura Flix</title>
+</head>
+<body>
+    <div class="container-header">
+        <header>
+            <img src="../assets/LogoMain.png" alt="logo">
+            <nav>
+                <button class="boton-home"><a href="../index.html">HOME</a></button>
+                <button class="boton-nuevo">NUEVO VIDEO</button>
+            </nav>
+        </header>   
+
+        <main>
+            <section class="titulo-descripcion">
+                <h1>NUEVO VIDEO</h1>
+                <p>COMPLETE EL FORMULARIO PARA CREAR UNA NUEVA TARJETA DE VIDEO</p>
+            </section>
+
+            <section class="formulario">
+                <div class="formulario-container">
+                    <div class="h1-tarjeta"><h1 class="tarjeta">Crear Tarjeta</h1></div>
+                    <div class="form-config">
+                        <form class="formulario-principal">
+                            <div class="primer-renglon">
+                                    <div class="primer-pregunta">
+                                        <label class="campo__titulo" for="titulo">Titulo</label><br><br>
+                                        <input name="titulo" id="titulo" class="campo__completo" type="text" minlength="3" required placeholder="Ingrese el título"/>
+                                        <span class="mensaje-error"></span>
+                                    </div>
+
+                                    <div>
+                                        <label class="campo__categoria" for="categoria">Categoria</label><br><br>
+                                        <select class="campo__lista" required>
+                                            <option value="value1">Front End</option>
+                                            <option value="value2">Back End</option>
+                                            <option value="value3">Innovación y Gestión</option>
+                                        </select>
+                                    </div>
+                                    
+                            </div>
+                            
+                            <div class="segundo-renglon">
+                                <div class="tercer-pregunta">
+                                    <label class="campo__imagen" for="imagen">Imagen</label><br><br>
+                                    <input name="imagen" id="imagen" class="campo__completo" type="text" minlength="3" required placeholder="Ingrese la imagen"/>
+                                    <span class="mensaje-error"></span>
+                                </div>
+                                
+
+                                <div>
+                                    <label class="campo__video" for="video">Video</label><br><br>
+                                    <input name="video" id="video" class="campo__completo" type="text" minlength="3" required placeholder="Ingrese el enlace del video"/>
+                                    <span class="mensaje-error"></span>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="tercer-renglon">
+                                <label class="campo__descripcion" for="descripcion">Descripción</label><br><br>
+                                <textarea cols="50" rows="10">¿De qué se trata este video?</textarea>
+                            </div>
+
+                            <div class="cuarto-renglon">
+                                <button class="boton-guardar">GUARDAR</button>
+                                <button class="boton-limpiar">LIMPIAR</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <img src="../assets/LogoMain.png" alt="logo">
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+*{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: #686868;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-color: #3e5f8a;
+    border-style: solid;
+}
+
+.container-header{
+    width:100%;
+    margin: 0 auto;
+}
+
+.boton-home{
+    background-color: black;
+    border-color: #054f77;
+    border-radius: 5px;
+    border-style: solid;
+    color: #054f77;
+    height: 50px;
+    width: 150px;
+    margin-right: 25px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+.boton-nuevo{
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    height: 50px;
+    width: 150px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.mainbanner{
+    background-image: url("assets/banner.png");
+    color: white;
+    padding-top: 200px;
+    border-color: #3e5f8a;
+    border-style: solid;
+    
+}
+
+.boton-banner{
+    font-weight: bold;
+    font-size: 3em;
+    background-color: #6BD1FF;
+    color: white;
+    border-radius: 8px;
+}
+
+.banner-player{
+    border-radius: 17px;
+}
+
+.banner-titulo{
+    font-size: 2.5em;
+}
+
+.banner-texto{
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.banner-config{
+    display: flex;
+    flex-wrap: wrap; /*Se distribuye el contenido en el contenedor*/
+    gap: 10px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.banner-info{
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.main-cards{
+    background-color: #303030;
+    margin-top: 0;
+    border-color: #3e5f8a;
+    border-style: solid;
+}
+
+.card-config{
+    list-style-type: none;
+}
+
+.boton-FE{
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #6BD1FF;
+    color: white;
+    border-radius: 12px;
+    height: 50px;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-left: 40px;
+}
+
+.boton-BE{
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #00C86F;
+    color: white;
+    border-radius: 12px;
+    height: 50px;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-left: 40px;
+}
+
+.boton-IG{
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #FFBA05;
+    color: white;
+    border-radius: 12px;
+    height: 50px;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-left: 40px;
+}
+
+.videos-FE{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap; /*Se distribuye el contenido en el contenedor*/
+    gap: 10px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.v-FE{
+    height: 303px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 12px;
+}
+
+.videos-BE{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap; /*Se distribuye el contenido en el contenedor*/
+    gap: 10px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.v-BE{
+    height: 303px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 12px;
+}
+
+.videos-IG{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap; /*Se distribuye el contenido en el contenedor*/
+    gap: 10px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.v-IG{
+    height: 303px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 12px;
+}
+
+.video-container1{
+    height: 303px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 12px;
+    border-color: #6BD1FF;
+    border-style: solid;
+    background-color: black;
+}
+
+.video-container2{
+    height: 303px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 12px;
+    border-color: #00C86F;
+    border-style: solid;
+    background-color: black;
+}
+
+.video-container3{
+    height: 303px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 12px;
+    border-color: #FFBA05;
+    border-style: solid;
+    background-color: black;
+}
+
+.borrar-editar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 12px;
+    border-radius: 12px;
+}

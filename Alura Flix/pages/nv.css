@@ -1,0 +1,217 @@
+*{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-color: #3e5f8a;
+    border-style: solid;
+}
+
+.container-header{
+    width:100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #686868;
+}
+
+.boton-home{
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-right: 25px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.boton-nuevo{
+    background-color: black;
+    border-color: #054f77;
+    border-radius: 5px;
+    border-style: solid;
+    color: #054f77;
+    height: 50px;
+    width: 150px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+.titulo-descripcion{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    border-top-color: #3e5f8a;
+    border-bottom-color: black;
+    border-left-color: #3e5f8a;
+    border-right-color: #3e5f8a;
+    border-style: solid;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.tarjeta{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+
+.formulario{
+    background-color: black;
+    border-top-color: black;
+    border-bottom-color: #3e5f8a;
+    border-left-color: #3e5f8a;
+    border-right-color: #3e5f8a;
+    border-style: solid;
+}
+
+.formulario-container{
+    margin: 100px;
+    align-items: center;
+    
+}
+
+.h1-tarjeta{
+    border-top-color: darkgray;
+    border-bottom-color: darkgray;
+    border-style: solid;
+}
+
+label{
+    color: white;
+    font-size: 25px;
+}
+
+.primer-renglon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.primer-pregunta{
+    margin-right: 50px;
+}
+
+.tercer-pregunta{
+    margin-right: 50px;
+}
+
+#titulo{
+    height: 35px;
+    width: 350px;
+}
+
+#imagen{
+    height: 35px;
+    width: 500px;
+}
+
+#video{
+    height: 35px;
+    width: 500px;
+}
+.campo__completo{
+    background-color: black;
+    color: darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 1.1em;
+}
+
+.campo__lista{
+    background-color: black;
+    color: darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+    border-style: solid;
+    width: 450px;
+    height: 40px;
+    font-size: 1.1em;
+}
+
+.segundo-renglon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.tercer-renglon{
+    margin-top: 30px;
+}
+
+textarea{
+    background-color: black;
+    color: darkgray;
+    border-color: darkgray;
+    border-radius: 5px;
+    border-style: solid;
+    width: 500px;
+    font-size: 1.1em;
+}
+
+.cuarto-renglon{
+    margin-top: 30px;
+}
+
+.boton-guardar{
+    color: white;
+    background-color: black;
+    padding: 12px;
+    border-color: #054f77;
+    border-radius: 5px;
+    border-style: solid;
+    margin-right: 50px;
+    width: 200px;
+}
+
+.boton-limpiar{
+    color: white;
+    background-color: black;
+    padding: 12px;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    width: 200px;
+}
+
+.mensaje-error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .925rem;
+    color: red;
+}
